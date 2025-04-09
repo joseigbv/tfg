@@ -1,4 +1,4 @@
-# 🔐 WEB3-DFS — Distributed File Storage System for IoT with Blockchain
+# WEB3-DFS — Distributed File Storage System for IoT with Blockchain
 
 **TFG - Diseño e implementación de un sistema de almacenamiento distribuido WEB 3.0**
 
@@ -6,31 +6,28 @@ Este proyecto es una prueba de concepto de un sistema de almacenamiento descentr
 
 ---
 
-## 🧱 Características principales
+## Características principales
 
-- 🌐 **Arquitectura distribuida P2P** entre nodos IoT (Orange Pi).
-- 🔐 **Identificación por hash de contenido** (SHA-512).
-- 📄 **Metadatos en formato JSON**, con permisos, propietario y timestamp.
-- 🔁 **Redundancia basada en erasure coding o replicación** configurable.
-- 📦 **Almacenamiento local con publicación IPFS** opcional.
-- 🧾 **Registro de operaciones en blockchain** (Cardano en pruebas).
-- 🔧 **API RESTful** para interacción entre nodos y gestión de archivos.
-- 🌱 Código abierto, modular y extensible.
+- **Arquitectura distribuida P2P** entre nodos IoT (Orange Pi).
+- **Identificación por hash de contenido** (SHA-512).
+- **Metadatos en formato JSON**, con permisos, propietario y timestamp.
+- **Redundancia basada en erasure coding** configurable.
+- **Registro de operaciones en blockchain** (Cardano en pruebas).
+- **API RESTful** para interacción entre nodos y gestión de archivos.
+- Código abierto, modular y extensible.
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Python 3.10+
-- Orange Pi Zero (o Raspberry Pi)
 - Linux (Debian/Ubuntu recomendado)
 - Docker (opcional para nodos virtualizados)
 - [Cardano Node](https://docs.cardano.org) o simulador
-- [IPFS](https://docs.ipfs.tech) (opcional)
 
 ---
 
-## 🚀 Instalación
+## Instalación
 
 ```bash
 git clone https://github.com/usuario/web3-dfs.git
@@ -40,7 +37,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Ejecución de la prueba de concepto
+## Ejecución de la prueba de concepto
 
 ```bash
 python3 node.py --config=config/node1.json
@@ -50,7 +47,7 @@ python3 node.py --config=config/node1.json
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 web3-dfs/
@@ -66,13 +63,13 @@ web3-dfs/
 
 ---
 
-## 🧠 Motivación académica
+## Motivación académica
 
 Este proyecto se desarrolla como parte del Trabajo de Fin de Grado en Ingeniería Informática, con el objetivo de aplicar principios de la Web 3.0 al diseño de un sistema de almacenamiento distribuido orientado a IoT, bajo un enfoque seguro, abierto y trazable.
 
 ---
 
-## 📚 Referencias
+## Referencias
 
 - [IPFS Whitepaper](https://ipfs.io/ipfs/Qm.../whitepaper.pdf)
 - [Filecoin Spec](https://spec.filecoin.io)
@@ -81,13 +78,14 @@ Este proyecto se desarrolla como parte del Trabajo de Fin de Grado en Ingenierí
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
 
 ---
 
-## ✉ Contacto
+## Contacto
 
-Desarrollado por **José Ignacio**  
-📧 Contacto: [tu-email@ejemplo.com]
+Desarrollado por **José Ignacio Bravo Vicente**  
+Contacto: [nacho.bravo@gmail.com]
+
